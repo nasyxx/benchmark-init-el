@@ -206,10 +206,5 @@
     (if (not (eq major-mode 'benchmark-init/tree-mode))
         (benchmark-init/tree-mode))))
 
-;; Obsolete functions
-
-(define-obsolete-function-alias 'benchmark-init/show-durations
-  'benchmark-init/show-durations-tabulated)
-
 (provide 'benchmark-init-modes)
 ;;; benchmark-init-modes.el ends here
