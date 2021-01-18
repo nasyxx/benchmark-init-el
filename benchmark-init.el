@@ -186,10 +186,5 @@ Slots:
   (ad-activate 'require)
   (ad-activate 'load))
 
-;; Obsolete functions
-
-(define-obsolete-function-alias 'benchmark-init/install
-  'benchmark-init/activate)
-
 (provide 'benchmark-init)
 ;;; benchmark-init.el ends here
